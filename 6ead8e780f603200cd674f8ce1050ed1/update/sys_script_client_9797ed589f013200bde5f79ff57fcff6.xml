@@ -14,9 +14,12 @@
   //Check to see if the form is for a new record.  If it is a new record, 
   //set the Requested for value to the currently logged in user.
 
-    if(g_form.isNewRecord()){
-        g_form.setValue('u_requested_for',g_user.userID);
-    }
+	if(g_form.isNewRecord()){
+		var userID = g_user.userID;
+		var userFullName = g_user.getFullName();
+		
+		g_form.setValue('u_requested_for', userID);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
