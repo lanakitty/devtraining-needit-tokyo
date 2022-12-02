@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeedItUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name>NeedItUtils</name>
+        <script/>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 21:52:03</sys_created_on>
+        <sys_id>6e6bc21b9f913200bde5f79ff57fcfb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 20:12:06</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>830c8b25db1ff70c0ae3ac44d4961946</instance_id>
+        <instance_name>dev91852</instance_name>
+        <name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include"><sys_script_include action="INSERT_OR_UPDATE"><access>package_private</access><active>true</active><api_name>x_58872_needit.NeedItUtils</api_name><caller_access/><client_callable>false</client_callable><description>Utils Script Include for the NeedIt application.</description><name>NeedItUtils</name><script/><sys_class_name>sys_script_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-09 21:52:03</sys_created_on><sys_id>6e6bc21b9f913200bde5f79ff57fcfb6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NeedItUtils</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy>read</sys_policy><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-02 20:12:06</sys_updated_on></sys_script_include></record_update>]]></payload>
+        <payload_hash>101980291</payload_hash>
+        <record_name>NeedItUtils</record_name>
+        <reverted_from/>
+        <source>53fb3a939753111094cbbde3f153af30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 20:12:06</sys_created_on>
+        <sys_id>8906211d97a3111094cbbde3f153af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184d477b8640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 20:12:06</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c106211d71a31110cf89e668285c7460</update_guid>
+        <update_guid_history>c106211d71a31110cf89e668285c7460:101980291,4f9aee246563111039a8ccd4c53d4e37:0,f24fad9001e31110c3a001c382ce5fea:257620316,b3e2db7763131110d0fcfcc1cfd9d921:0,f8d1cb5b0d531110aa0a15c75653a973:257620316,098f7e97d55311102b1b88239a82a62a:-974100844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 20:12:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>25f84c07934341d48d5ae1bb5844fec9</sys_id>
+        <sys_metadata>6e6bc21b9f913200bde5f79ff57fcfb6</sys_metadata>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6">8906211d97a3111094cbbde3f153af60</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
