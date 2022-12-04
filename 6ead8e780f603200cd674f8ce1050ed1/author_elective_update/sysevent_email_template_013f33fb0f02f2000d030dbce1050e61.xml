@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_58872_needit_needit_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Click here to close&nbsp;NeedIt Task ${number}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.closeneedittask</name>
+        <sms_alternate/>
+        <subject>Re: ${number} - please close NeedIt Task</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-18 02:21:33</sys_created_on>
+        <sys_id>013f33fb0f02f2000d030dbce1050e61</sys_id>
+        <sys_name>mailto.closeneedittask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_013f33fb0f02f2000d030dbce1050e61</sys_update_name>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>830c8b25db1ff70c0ae3ac44d4961946</instance_id>
+        <instance_name>dev91852</instance_name>
+        <name>sysevent_email_template_013f33fb0f02f2000d030dbce1050e61</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;
+    &lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;
+        &lt;collection&gt;x_58872_needit_needit_task&lt;/collection&gt;
+        &lt;email_layout/&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Click here to close&amp;nbsp;NeedIt Task ${number}&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;mailto.closeneedittask&lt;/name&gt;
+        &lt;sms_alternate/&gt;
+        &lt;subject&gt;Re: ${number} - please close NeedIt Task&lt;/subject&gt;
+        &lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-04-18 02:21:33&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;013f33fb0f02f2000d030dbce1050e61&lt;/sys_id&gt;
+        &lt;sys_name&gt;mailto.closeneedittask&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_template_013f33fb0f02f2000d030dbce1050e61&lt;/sys_update_name&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+    &lt;/sysevent_email_template&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1481751461</payload_hash>
+        <record_name>mailto.closeneedittask</record_name>
+        <reverted_from/>
+        <source>88b659259723511094cbbde3f153af4a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 13:44:03</sys_created_on>
+        <sys_id>9ac615659723511094cbbde3f153af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184d83acdb60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-03 13:44:03</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>d6c6156516235110a89dc73994ee4b3c</update_guid>
+        <update_guid_history>d6c6156516235110a89dc73994ee4b3c:0,50b659257123511037c6df5d1a889c7f:1676424631,2fb0c9ed22af1110363f2ca77660b724:0,3f908dadefaf11105896005152dec6cb:1676424631,d4aa6264c563111054d26e98762f051e:0,184fe9901fe311106a0075cfc5aff355:1676424631,cdf25f77d2131110fda057b6b3230e3b:0,9ac1c75b19531110ed717cdf667b6092:1676424631,4e8fbe975e5311105e7466f4416588bf:1646142457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-04 20:42:23</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>775d37ad243448889fe9c80c9215fa89</sys_id>
+        <sys_metadata>013f33fb0f02f2000d030dbce1050e61</sys_metadata>
+        <sys_name>mailto.closeneedittask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt Task">4e7ff6979753111094cbbde3f153af69</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_013f33fb0f02f2000d030dbce1050e61</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_013f33fb0f02f2000d030dbce1050e61">9ac615659723511094cbbde3f153af3c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
