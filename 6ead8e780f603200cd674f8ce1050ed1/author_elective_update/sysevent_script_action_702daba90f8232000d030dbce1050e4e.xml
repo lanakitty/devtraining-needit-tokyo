@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_58872_needit.dueSoonNeedItTasks</event_name>
+        <name>Update Due Soon NeedIt Task Priority</name>
+        <order>100</order>
+        <script><![CDATA[// Set the record priority to 2 - High
+current.priority = 2;
+// Update the record in the database
+current.update();
+
+]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 01:17:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>702daba90f8232000d030dbce1050e4e</sys_id>
+        <sys_name>Update Due Soon NeedIt Task Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_script_action_702daba90f8232000d030dbce1050e4e</sys_update_name>
+    </sysevent_script_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>830c8b25db1ff70c0ae3ac44d4961946</instance_id>
+        <instance_name>dev91852</instance_name>
+        <name>sysevent_script_action_702daba90f8232000d030dbce1050e4e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;
+    &lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;condition_script/&gt;
+        &lt;description/&gt;
+        &lt;event_name&gt;x_58872_needit.dueSoonNeedItTasks&lt;/event_name&gt;
+        &lt;name&gt;Update Due Soon NeedIt Task Priority&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[// Set the record priority to 2 - High
+current.priority = 2;
+// Update the record in the database
+current.update();
+
+]]&gt;&lt;/script&gt;
+        &lt;synchronous&gt;false&lt;/synchronous&gt;
+        &lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-04-11 01:17:26&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;702daba90f8232000d030dbce1050e4e&lt;/sys_id&gt;
+        &lt;sys_name&gt;Update Due Soon NeedIt Task Priority&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_script_action_702daba90f8232000d030dbce1050e4e&lt;/sys_update_name&gt;
+    &lt;/sysevent_script_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-560786752</payload_hash>
+        <record_name>Update Due Soon NeedIt Task Priority</record_name>
+        <reverted_from/>
+        <source>88b659259723511094cbbde3f153af4a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 13:44:03</sys_created_on>
+        <sys_id>66c615659723511094cbbde3f153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184d83ace930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-03 13:44:03</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>a2c615659223511039670acb3b702375</update_guid>
+        <update_guid_history>a2c615659223511039670acb3b702375:0,85b6992523235110de1d77b5b0cb4ad0:1885460488,bbb0c9ed74af1110be8d2474e81cc637:0,92a081ed04af111029abba338b990244:1885460488,18aa62642f6311106d198b00ba7d703e:0,0f4fad9083e31110da422594564d6ff7:1885460488,85f25f77a813111044653f71e979644f:0,f8d1cb5b175311103c3062c0d0fd268d:1885460488,868fbe9760531110f302383f4d5d0dd2:1763494512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 13:43:05</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>04aa7387b2094f4f85bc8a7a1c682241</sys_id>
+        <sys_metadata>702daba90f8232000d030dbce1050e4e</sys_metadata>
+        <sys_name>Update Due Soon NeedIt Task Priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_702daba90f8232000d030dbce1050e4e</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_702daba90f8232000d030dbce1050e4e">66c615659723511094cbbde3f153af75</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
